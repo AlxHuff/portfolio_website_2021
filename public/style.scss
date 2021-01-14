@@ -57,11 +57,11 @@ header {
         h1{
             margin: 0 auto;
             margin-bottom: 40px;
-            width: 500px;
+            width: 600px;
             font-family: Poppins;
             font-style: normal;
             font-weight: bold;
-            font-size: 35px;
+            font-size: 45px;
             color: white;
         }
     
@@ -79,8 +79,8 @@ header {
 
         .pull-quote {
             margin: 0 auto;
-            margin-top: 300px;
-            margin-left: 70px;
+            margin-top: 330px;
+            margin-left: 120px;
             display: flex;
             height: 600px;
             width: 600px;
@@ -92,17 +92,18 @@ header {
     margin: 0 auto;
     height: 500px;
     background-color: white;
-    padding-top:70px;
+    padding-top:80px;
     padding-bottom: 40px;
     padding-left: 120px;
     padding-right:120px;
 
     svg {
-        margin-left: -55px;
+        margin-left: 0px;
     }
 
     .projectText {
         margin-top: -265px;
+        padding-left: 60px;
     }
 
     h2 {
@@ -119,7 +120,7 @@ header {
     }
 
     h3 {
-        margin-bottom: 15px;
+        margin-bottom: 22px;
         font-family: Poppins;
         font-weight: 800;
         font-size: 25px;
@@ -149,9 +150,9 @@ header {
     }
 
     .feature-thumbnail {
-        width: 65%;
-        height: 65%;
-        margin-left: 500px;
-        margin-top: -408px;
+        width: 62%;
+        height: 62%;
+        margin-left: 608px;
+        margin-top: -430px;
     }
 }
