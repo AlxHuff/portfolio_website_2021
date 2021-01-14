@@ -76,7 +76,7 @@ header .box p {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
   color: #CECDCD;
 }
 
@@ -93,8 +93,8 @@ header .box .pull-quote {
 
 .feature {
   margin: 0 auto;
+  margin-bottom: 40px;
   height: 500px;
-  background-color: white;
   padding-top: 80px;
   padding-bottom: 40px;
   padding-left: 120px;
@@ -107,7 +107,7 @@ header .box .pull-quote {
 
 .feature .projectText {
   margin-top: -265px;
-  padding-left: 60px;
+  padding-left: 70px;
 }
 
 .feature h2 {
@@ -138,6 +138,7 @@ header .box .pull-quote {
 }
 
 .feature .description {
+  margin-bottom: 25px;
   width: 350px;
   font-family: Poppins;
   font-style: normal;
@@ -162,7 +163,88 @@ header .box .pull-quote {
 .feature .feature-thumbnail {
   width: 62%;
   height: 62%;
-  margin-left: 608px;
-  margin-top: -430px;
+  margin-left: 606px;
+  margin-top: -435px;
+}
+
+.skills {
+  margin: 0 auto;
+  height: 800px;
+  background-color: #353434;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.skills h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.skills-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skills-row .skills-card {
+  text-align: center;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.skills-row .skills-card .card-icon {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.skills-row .skills-card h2 {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.skills-row .skills-card img {
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -5px;
 }
 /*# sourceMappingURL=style.css.map */
