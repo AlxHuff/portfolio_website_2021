@@ -194,6 +194,27 @@ header .box .pull-quote {
   color: white;
 }
 
+.skills .skills-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills .resume-cta {
+  width: 200px;
+  height: 50px;
+  background-color: #FBF781;
+  color: #212121;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 30px;
+  border: 1px solid #FBF781;
+}
+
 .skills-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,6 +226,7 @@ header .box .pull-quote {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .skills-row .skills-card {
