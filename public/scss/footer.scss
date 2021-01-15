@@ -1,0 +1,28 @@
+footer {
+    margin:0 auto;
+    height: 150px;
+    background: #212121;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+
+    p {
+        color: #FBF781;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        width: 300px;
+        text-align: center;
+
+        .github-link {
+            color:#FBF781;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+        }
+    }
+}

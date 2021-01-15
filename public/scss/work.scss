@@ -1,0 +1,89 @@
+.work {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top:80px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+    padding-right:120px;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #212121;
+    }
+
+    .work-panel {
+        display: block;
+        margin-bottom: 100px;
+    }
+    
+    svg {
+        margin-left: 800px;
+        margin-top: -540px;
+    }
+
+    .projectText {
+        margin-top: -375px;
+        margin-left: 850px;
+        padding-left: 25px;
+    }
+
+    h2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 0.435em;
+        text-transform: uppercase;
+        color: #2B7370;
+    }
+
+    h3 {
+        margin-bottom: 22px;
+        font-family: Poppins;
+        font-weight: 800;
+        font-size: 25px;
+        color: #212121;  
+    }
+
+    .description {
+        margin-bottom: 25px;
+        width: 350px;    
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 25px;
+        color: #8D8D8E;
+    }
+
+    .project-cta {
+        width: 135px;
+        height: 35px;
+        background: #000000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 600;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    .feature-thumbnail {
+        width: 55%;
+        height: 55%;
+    }
+}
+
+
+

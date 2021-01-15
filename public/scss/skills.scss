@@ -1,0 +1,82 @@
+.skills {
+    margin: 0 auto;
+    height: 800px;
+    background-color: #353434;
+    padding-top:80px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+    padding-right:120px;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .skills-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .resume-cta {
+        width: 200px;
+        height: 50px;
+        background-color: #FBF781;
+        color: #212121;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 800;
+        border-radius: 30px;
+        border: 1px solid #FBF781;
+    }
+}
+
+.skills-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    .skills-card {
+        text-align: center;
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 60px;
+        width: 350px;
+        height: 450px;
+        border-radius: 20px;
+        background-color: white;
+
+        .card-icon {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-family: Poppins;
+            font-weight: 800;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        img {
+            width: 320px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: -5px;
+           
+        }
+    }
+}
+

@@ -226,7 +226,7 @@ header .box .pull-quote {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .skills-row .skills-card {
@@ -521,7 +521,7 @@ header .box .pull-quote {
 }
 
 .archive img {
-  height: 60%;
+  height: 30%;
   padding: 15px;
 }
 

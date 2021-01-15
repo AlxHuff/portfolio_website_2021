@@ -1,0 +1,46 @@
+.about {
+    background-color: #353434;
+    height:570px;
+    margin: 0 auto;
+    padding-top:80px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+    padding-right:120px;
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    p {
+        color: white;
+        width: 500px;
+       
+    }
+
+    a {
+        color: #FBF781;
+    }
+
+    img {
+        height: 33%;
+        width: 33%;
+    }
+}
+}
+
+
+

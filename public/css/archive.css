@@ -1,0 +1,59 @@
+.archive {
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.archive .archive-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 90px;
+  padding-right: 40px;
+  padding-left: 0px;
+}
+
+.archive h3 {
+  margin-bottom: 35px;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 25px;
+  color: #212121;
+}
+
+.archive .button-cta {
+  width: 200px;
+  height: 50px;
+  background-color: #2B7370;
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 30px;
+  border: 1px solid #2B7370;
+}
+
+.archive img {
+  height: 30%;
+  padding: 15px;
+}
+/*# sourceMappingURL=archive.css.map */

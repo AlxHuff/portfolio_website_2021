@@ -1,0 +1,45 @@
+.archive {
+    margin: 0 auto;
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right:120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .archive-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 90px;
+        padding-right: 40px;
+        padding-left: 0px;
+    }
+
+    h3 {
+        margin-bottom: 35px;
+        font-family: Poppins;
+        font-weight: 800;
+        font-size: 25px;
+        color: #212121; 
+      
+    }
+
+    .button-cta {
+        width: 200px;
+        height: 50px;
+        background-color:#2B7370;
+        color: white;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 800;
+        border-radius: 30px;
+        border: 1px solid #2B7370;
+    }
+
+    img {
+        height: 30%;
+        padding: 15px;
+    }
+}
