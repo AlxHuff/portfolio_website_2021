@@ -468,9 +468,8 @@ header .box .pull-quote {
 
 .archive {
   margin: 0 auto;
-  margin-bottom: 40px;
   padding-top: 100px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
   padding-left: 120px;
   padding-right: 120px;
   display: -webkit-box;
@@ -498,6 +497,7 @@ header .box .pull-quote {
           align-items: center;
   padding-top: 90px;
   padding-right: 40px;
+  padding-left: 0px;
 }
 
 .archive h3 {
@@ -523,5 +523,38 @@ header .box .pull-quote {
 .archive img {
   height: 60%;
   padding: 15px;
+}
+
+footer {
+  margin: 0 auto;
+  height: 150px;
+  background: #212121;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  color: #FBF781;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+footer p .github-link {
+  color: #FBF781;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
