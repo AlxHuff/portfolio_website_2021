@@ -1,19 +1,55 @@
+@import "components/_header.scss";
+@import "components/_feature.scss";
+@import "components/_work.scss";
+@import "components/_skills.scss";
+@import "components/_work.scss";
+@import "components/_hireMe.scss";
+@import "components/_about.scss";
+@import "components/_archive.scss";
+@import "components/_footer.scss";
 
-@import "_header.scss";
-@import "_feature.scss";
-@import "_work.scss";
-@import "_skills.scss";
-@import "_work.scss";
-@import "_hireMe.scss";
-@import "_about.scss";
-@import "_archive.scss";
-@import "_footer.scss";
+//phone
+$screen-sm-min: 360px;
+@mixin sm {
+    @media (min-width:#{$screen-sm-min}){
+        @content;
+    }
+}
+
+//tablet
+$screen-md-min: 768px;
+@mixin md {
+    @media screen and (min-width:#{$screen-md-min}){
+        @content;
+    }
+}
+
+//laptop
+$screen-lg-min: 1366px;
+@mixin lg {
+    @media screen and (min-width:#{$screen-lg-min}){
+        @content;
+    }
+}
+
+//desktop
+$screen-xl-min: 1920px;
+@mixin xl {
+    @media screen and (min-width:#{$screen-xl-min}){
+        @content;
+    }
+}
 
 .navbar {
     height: 70px;
     background: #212121;
     padding-left: 120px;
     padding-right: 120px;
+
+        //360px and less
+        @include sm {
+            height: 10px;
+        }
 
     .container-fluid {
         padding: 0px;
@@ -27,9 +63,9 @@
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
-        line-height: 39px
+        line-height: 39px;
     }
-
+    
     .nav-link {
         margin: 0 auto;
         padding: 8px;
@@ -50,6 +86,5 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+
 }
-
-

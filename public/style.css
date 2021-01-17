@@ -1,46 +1,3 @@
-.navbar {
-  height: 70px;
-  background: #212121;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
-.navbar .container-fluid {
-  padding: 0px;
-}
-
-.navbar .navbar-brand {
-  margin: 0 auto;
-  margin-right: 45px;
-  color: #FBF781;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 39px;
-}
-
-.navbar .nav-link {
-  margin: 0 auto;
-  padding: 8px;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
-  color: white;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-}
-
-.navbar .nav-icon {
-  height: 30px;
-  width: 30px;
-  padding-top: 5px;
-  padding: 3px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 header .box {
   margin: 0 auto;
   display: -webkit-box;
@@ -82,7 +39,7 @@ header .box p {
 
 header .box .pull-quote {
   margin: 0 auto;
-  margin-top: 330px;
+  margin-top: 320px;
   margin-left: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,6 +122,103 @@ header .box .pull-quote {
   height: 62%;
   margin-left: 606px;
   margin-top: -435px;
+}
+
+.work {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.work h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.work .work-panel {
+  display: block;
+  margin-bottom: 100px;
+}
+
+.work svg {
+  margin-left: 800px;
+  margin-top: -540px;
+}
+
+.work .projectText {
+  margin-top: -375px;
+  margin-left: 850px;
+  padding-left: 25px;
+}
+
+.work h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.435em;
+  text-transform: uppercase;
+  color: #2B7370;
+}
+
+.work h3 {
+  margin-bottom: 22px;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 25px;
+  color: #212121;
+}
+
+.work .description {
+  margin-bottom: 25px;
+  width: 350px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  color: #8D8D8E;
+}
+
+.work .project-cta {
+  width: 135px;
+  height: 35px;
+  background: #000000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.work .feature-thumbnail {
+  width: 55%;
+  height: 55%;
 }
 
 .skills {
@@ -556,5 +610,54 @@ footer p .github-link {
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
+}
+
+.navbar {
+  height: 70px;
+  background: #212121;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+@media (min-width: 360px) {
+  .navbar {
+    height: 10px;
+  }
+}
+
+.navbar .container-fluid {
+  padding: 0px;
+}
+
+.navbar .navbar-brand {
+  margin: 0 auto;
+  margin-right: 45px;
+  color: #FBF781;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 39px;
+}
+
+.navbar .nav-link {
+  margin: 0 auto;
+  padding: 8px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.navbar .nav-icon {
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+  padding: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
