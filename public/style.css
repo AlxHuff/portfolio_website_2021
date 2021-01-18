@@ -1,3 +1,46 @@
+.navbar {
+  height: 70px;
+  background: #212121;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.navbar .container-fluid {
+  padding: 0px;
+}
+
+.navbar .navbar-brand {
+  margin: 0 auto;
+  margin-right: 45px;
+  color: #FBF781;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 39px;
+}
+
+.navbar .nav-link {
+  margin: 0 auto;
+  padding: 8px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.navbar .nav-icon {
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+  padding: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 header .box {
   margin: 0 auto;
   display: -webkit-box;
@@ -7,64 +50,34 @@ header .box {
       -ms-flex-align: center;
           align-items: center;
   background-color: #353434;
-  height: 500px;
-  padding-top: 10px;
-  padding-bottom: 40px;
-  padding-left: 120px;
-  padding-right: 120px;
 }
 
 header .box h1 {
   margin: 0 auto;
-  margin-bottom: 40px;
-  width: 600px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
   color: white;
 }
 
 header .box p {
   margin: 0 auto;
   position: absolute;
-  width: 482px;
-  height: 32px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
   color: #CECDCD;
 }
 
 header .box .pull-quote {
   margin: 0 auto;
-  margin-top: 320px;
-  margin-left: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 600px;
-  width: 600px;
 }
 
 .feature {
   margin: 0 auto;
-  margin-bottom: 40px;
-  height: 500px;
-  padding-top: 80px;
-  padding-bottom: 40px;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
-.feature svg {
-  margin-left: 0px;
-}
-
-.feature .projectText {
-  margin-top: -265px;
-  padding-left: 70px;
 }
 
 .feature h2 {
@@ -80,48 +93,30 @@ header .box .pull-quote {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 12px;
-  letter-spacing: 0.435em;
   text-transform: uppercase;
   color: #2B7370;
 }
 
 .feature h3 {
-  margin-bottom: 22px;
   font-family: Poppins;
   font-weight: 800;
-  font-size: 25px;
   color: #212121;
 }
 
 .feature .description {
-  margin-bottom: 25px;
-  width: 350px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 25px;
   color: #8D8D8E;
 }
 
 .feature .project-cta {
-  width: 135px;
-  height: 35px;
   background: #000000;
   font-family: Poppins;
-  font-size: 12px;
   font-weight: 600;
   color: white;
   border-radius: 20px;
   border: 1px solid black;
-}
-
-.feature .feature-thumbnail {
-  width: 62%;
-  height: 62%;
-  margin-left: 606px;
-  margin-top: -435px;
 }
 
 .work {
@@ -612,52 +607,282 @@ footer p .github-link {
   font-size: 10px;
 }
 
-.navbar {
-  height: 70px;
-  background: #212121;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
-@media (min-width: 360px) {
-  .navbar {
-    height: 10px;
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .box {
+    height: 270px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  h1 {
+    margin-bottom: 15px !important;
+    margin-top: 0px !important;
+    width: 260px;
+    font-size: 20px !important;
+    padding-left: 20px;
+  }
+  p {
+    width: 260px;
+    height: 32px;
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  .pull-quote {
+    opacity: 0 !important;
+    margin-top: 330px !important;
+    margin-left: -230px !important;
+    height: 230px;
+    width: 230px;
+  }
+  .feature {
+    margin-bottom: 0px;
+    height: 450px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  svg {
+    margin-left: 10px;
+    margin-top: 180px;
+    width: 150px;
+    height: 150px;
+  }
+  .projectText {
+    margin-top: -115px !important;
+    padding-left: 20px;
+  }
+  h2 {
+    font-size: 10px !important;
+    letter-spacing: 0.435em !important;
+  }
+  h3 {
+    margin-bottom: 15px;
+    font-size: 18px !important;
+  }
+  .description {
+    margin-bottom: 65px;
+    width: 300px;
+    font-size: 10px !important;
+    line-height: 20px !important;
+    padding-left: 0px;
+  }
+  .project-cta {
+    width: 110px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .feature-thumbnail {
+    opacity: 100;
+    width: 100%;
+    height: 100%;
+    margin-left: 16px;
+    margin-top: -700px !important;
   }
 }
 
-.navbar .container-fluid {
-  padding: 0px;
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .box {
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  h1 {
+    margin-bottom: 20px !important;
+    width: 320px;
+    font-size: 25px !important;
+  }
+  p {
+    width: 482px;
+    height: 32px;
+    font-size: 12px;
+  }
+  .pull-quote {
+    margin-top: 200px !important;
+    margin-left: 40px !important;
+    height: 320px;
+    width: 320px;
+  }
+  .feature {
+    margin-bottom: 0px;
+    height: 290px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  svg {
+    margin-left: 0px;
+    width: 190px;
+    height: 190px;
+  }
+  .projectText {
+    margin-top: -150px !important;
+    padding-left: 35px;
+  }
+  h2 {
+    font-size: 10px !important;
+    letter-spacing: 0.435em !important;
+  }
+  h3 {
+    margin-bottom: 15px;
+    font-size: 18px !important;
+  }
+  .description {
+    margin-bottom: 65px;
+    width: 300px;
+    font-size: 10px !important;
+    line-height: 20px !important;
+  }
+  .project-cta {
+    width: 110px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .feature-thumbnail {
+    width: 58%;
+    height: 58%;
+    margin-left: 332px;
+    margin-top: -325px !important;
+  }
 }
 
-.navbar .navbar-brand {
-  margin: 0 auto;
-  margin-right: 45px;
-  color: #FBF781;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 39px;
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  .box {
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  h1 {
+    margin-bottom: 20px !important;
+    width: 450px;
+    font-size: 35px !important;
+  }
+  p {
+    width: 482px;
+    height: 32px;
+    font-size: 14px;
+  }
+  .pull-quote {
+    margin-top: 250px !important;
+    margin-left: 30px !important;
+    height: 390px;
+    width: 390px;
+  }
+  .feature {
+    margin-bottom: 0px;
+    height: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  svg {
+    margin-left: 0px;
+    width: 250px;
+    height: 250px;
+  }
+  .projectText {
+    margin-top: -195px;
+    padding-left: 50px;
+  }
+  h2 {
+    font-size: 12px !important;
+    letter-spacing: 0.435em !important;
+  }
+  h3 {
+    margin-bottom: 22px;
+    font-size: 22px !important;
+  }
+  .description {
+    margin-bottom: 70px;
+    width: 350px;
+    font-size: 11px !important;
+    line-height: 20px !important;
+  }
+  .project-cta {
+    width: 125px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .feature-thumbnail {
+    width: 62%;
+    height: 62%;
+    margin-left: 414px;
+    margin-top: -315px !important;
+  }
 }
 
-.navbar .nav-link {
-  margin: 0 auto;
-  padding: 8px;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
-  color: white;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-}
-
-.navbar .nav-icon {
-  height: 30px;
-  width: 30px;
-  padding-top: 5px;
-  padding: 3px;
-  margin-left: 10px;
-  margin-right: 10px;
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .box {
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  h1 {
+    margin-bottom: 40px !important;
+    width: 600px;
+    font-size: 45px !important;
+  }
+  p {
+    width: 482px;
+    height: 32px;
+    font-size: 16px;
+  }
+  .pull-quote {
+    margin-top: 360px !important;
+    margin-left: 40px !important;
+    height: 600px;
+    width: 600px;
+  }
+  .feature {
+    margin-bottom: 0px;
+    height: 540px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  svg {
+    margin-left: 0px;
+    width: 350px;
+    height: 350px;
+  }
+  .projectText {
+    margin-top: -265px;
+    padding-left: 70px;
+  }
+  h2 {
+    font-size: 12px !important;
+    letter-spacing: 0.435em !important;
+  }
+  h3 {
+    margin-bottom: 22px;
+    font-size: 25px !important;
+  }
+  .description {
+    margin-bottom: 90px;
+    width: 350px;
+    font-size: 12px !important;
+    line-height: 25px !important;
+  }
+  .project-cta {
+    width: 135px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .feature-thumbnail {
+    width: 62%;
+    height: 62%;
+    margin-left: 574px;
+    margin-top: -405px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

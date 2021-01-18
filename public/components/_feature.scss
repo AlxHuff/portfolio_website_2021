@@ -1,21 +1,220 @@
-
-    .feature {
-        margin: 0 auto;
-        margin-bottom: 40px;
-        height: 500px;
-        padding-top:80px;
-        padding-bottom: 40px;
-        padding-left: 120px;
-        padding-right:120px;
-    
+@mixin feature-mobile(){
+    .feature { 
+        margin-bottom: 0px;
+        height: 450px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right:15px;
+        }
+       
         svg {
-            margin-left: 0px;
+            //opacity: 0;
+            margin-left: 10px;
+            margin-top: 180px;    
+            width: 150px; 
+            height: 150px;
         }
     
         .projectText {
-            margin-top: -265px;
-            padding-left: 70px;
+            margin-top: -115px !important;
+            padding-left: 20px;
         }
+    
+        h2 {
+            font-size: 10px !important;
+            letter-spacing: 0.435em !important;
+        }
+    
+        h3 {
+            margin-bottom: 15px;
+            font-size: 18px !important;
+        }
+    
+        .description {
+            margin-bottom: 65px;
+            width: 300px;    
+            font-size: 10px !important;
+            line-height: 20px !important;
+            padding-left: 0px;
+        }
+    
+        .project-cta {
+            width: 110px;
+            height: 30px;
+            font-size: 10px;
+        }
+    
+        .feature-thumbnail {
+            opacity: 100;
+            width: 100%;
+            height: 100%;
+            margin-left: 16px;
+            margin-top: -700px !important;
+        }
+}
+
+@mixin feature-tablet(){
+    .feature { 
+        margin-bottom: 0px;
+        height: 290px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right:50px;
+        }
+       
+        svg {
+            margin-left: 0px;    
+            width: 190px; 
+            height: 190px;
+        }
+    
+        .projectText {
+            margin-top: -150px !important;
+            padding-left: 35px;
+        }
+    
+        h2 {
+            font-size: 10px !important;
+            letter-spacing: 0.435em !important;
+        }
+    
+        h3 {
+            margin-bottom: 15px;
+            font-size: 18px !important;
+        }
+    
+        .description {
+            margin-bottom: 65px;
+            width: 300px;    
+            font-size: 10px !important;
+            line-height: 20px !important;
+        }
+    
+        .project-cta {
+            width: 110px;
+            height: 30px;
+            font-size: 10px;
+        }
+    
+        .feature-thumbnail {
+            width: 58%;
+            height: 58%;
+            margin-left: 332px;
+            margin-top: -325px !important;
+        }
+}
+
+@mixin feature-laptop(){
+    .feature { 
+        margin-bottom: 0px;
+        height: 350px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+        padding-right:100px;
+        }
+       
+        svg {
+            margin-left: 0px;    
+            width: 250px; 
+            height: 250px;
+        }
+    
+        .projectText {
+            margin-top: -195px;
+            padding-left: 50px;
+        }
+    
+        h2 {
+            font-size: 12px !important;
+            letter-spacing: 0.435em !important;
+        }
+    
+        h3 {
+            margin-bottom: 22px;
+            font-size: 22px !important;
+        }
+    
+        .description {
+            margin-bottom: 70px;
+            width: 350px;    
+            font-size: 11px !important;
+            line-height: 20px !important;
+        }
+    
+        .project-cta {
+            width: 125px;
+            height: 30px;
+            font-size: 11px;
+        }
+    
+        .feature-thumbnail {
+            width: 62%;
+            height: 62%;
+            margin-left: 414px;
+            margin-top: -315px !important;
+        }
+}
+
+@mixin feature-desktop(){
+    .feature { 
+    margin-bottom: 0px;
+    height: 540px;
+    padding-top:80px;
+    padding-bottom: 70px;
+    padding-left: 110px;
+    padding-right:110px;
+    }
+   
+    svg {
+        margin-left: 0px;
+        width: 350px; 
+        height: 350px;
+    }
+
+    .projectText {
+        margin-top: -265px;
+        padding-left: 70px;
+    }
+
+    h2 {
+        font-size: 12px !important;
+        letter-spacing: 0.435em !important;
+    }
+
+    h3 {
+        margin-bottom: 22px;
+        font-size: 25px !important;
+    }
+
+    .description {
+        margin-bottom: 90px;
+        width: 350px;    
+        font-size: 12px !important;
+        line-height: 25px !important;
+    }
+
+    .project-cta {
+        width: 135px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .feature-thumbnail {
+        width: 62%;
+        height: 62%;
+        margin-left: 574px;
+        margin-top: -405px !important;
+    }
+}
+    
+    
+//default: same on all devices rules
+    
+    .feature {
+        margin: 0 auto;
     
         h2 {
             display: flex;
@@ -24,48 +223,30 @@
             font-family: Poppins;
             font-style: normal;
             font-weight: bold;
-            font-size: 12px;
-            letter-spacing: 0.435em;
             text-transform: uppercase;
             color: #2B7370;
         }
     
         h3 {
-            margin-bottom: 22px;
             font-family: Poppins;
             font-weight: 800;
-            font-size: 25px;
             color: #212121;  
         }
     
         .description {
-            margin-bottom: 25px;
-            width: 350px;    
             font-family: Poppins;
             font-style: normal;
             font-weight: 500;
-            font-size: 12px;
-            line-height: 25px;
             color: #8D8D8E;
         }
     
         .project-cta {
-            width: 135px;
-            height: 35px;
             background: #000000;
             font-family: Poppins;
-            font-size: 12px;
             font-weight: 600;
             color: white;
             border-radius: 20px;
             border: 1px solid black;
-        }
-    
-        .feature-thumbnail {
-            width: 62%;
-            height: 62%;
-            margin-left: 606px;
-            margin-top: -435px;
         }
     }
 
