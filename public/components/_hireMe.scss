@@ -1,16 +1,110 @@
-.hireMe {
-    margin: 0 auto;
-    margin-bottom: 40px;
-    padding-top:80px;
-    padding-bottom: 40px;
-    padding-left: 120px;
-    padding-right:120px;
 
-    h3 {
+
+@mixin hireMe-mobile(){
+    .hireMe {
+        margin-bottom: 0px;
+        padding-top:20px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right:15px;
+    }
+
+    .hireMe h3 {
+        margin-bottom: 20px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    
+    .hire-cta {
+        width: 150px;
+        height: 40px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 800;
+    }
+}
+
+@mixin hireMe-tablet(){
+    .hireMe {
+        margin-bottom: 0px;
+        padding-top:20px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right:50px;
+    }
+
+    .hireMe h3 {
+        margin-bottom: 20px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    
+    .hire-cta {
+        width: 150px;
+        height: 40px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 800;
+    }
+}
+
+
+@mixin hireMe-laptop(){
+    .hireMe {
+        margin-bottom: 0px;
+        padding-top:20px;
+        padding-bottom: 70px;
+        padding-left: 100px;
+        padding-right:100px;
+    }
+
+    .hireMe h3 {
         margin-bottom: 35px;
-        font-family: Poppins;
         font-weight: 800;
         font-size: 25px;
+    }
+    
+    .hire-cta {
+        width: 200px;
+        height: 50px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+}
+
+
+@mixin hireMe-desktop(){
+    .hireMe {
+        margin-bottom: 0px;
+        padding-top:100px;
+        padding-bottom: 100px;
+        padding-left: 110px;
+        padding-right:110px;
+    }
+
+    .hireMe h3 {
+        margin-bottom: 35px;
+        font-weight: 800;
+        font-size: 25px;
+    }
+    
+    .hire-cta {
+        width: 200px;
+        height: 50px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+}
+
+
+//default: same on all devices rules
+.hireMe {
+    margin: 0 auto;
+
+    h3 {
+        font-family: Poppins;
         color: #212121; 
         display: flex;
         justify-content: center; 
@@ -22,15 +116,9 @@
     }
 
     .hire-cta {
-        width: 200px;
-        height: 50px;
-        margin-bottom: 45px;
         background-color:#2B7370;
-        ;
         color: white;
         font-family: Poppins;
-        font-size: 15px;
-        font-weight: 800;
         border-radius: 30px;
         border: 1px solid #2B7370;
     }

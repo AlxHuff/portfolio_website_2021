@@ -16,6 +16,8 @@
        @include feature-mobile();
        @include skills-mobile();
        @include work-mobile();
+       @include hireMe-mobile();
+       @include about-mobile();
     }
 
 
@@ -25,6 +27,8 @@
         @include feature-tablet();
         @include skills-tablet();
         @include work-tablet();
+        @include hireMe-tablet();
+        @include about-tablet();
     }
 
 //laptop
@@ -33,6 +37,8 @@
         @include feature-laptop();
         @include skills-laptop();
         @include work-laptop();
+        @include hireMe-laptop();
+        @include about-laptop();
     }
 
 
@@ -42,4 +48,6 @@
         @include feature-desktop();
         @include skills-desktop();
         @include work-desktop();
+        @include hireMe-desktop();
+        @include about-desktop();
     }

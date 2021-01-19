@@ -1,21 +1,146 @@
+
+@mixin about-mobile(){
+    .about {
+        height:660px;
+        padding-top:35px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right:15px;
+    }
+
+    .about h1 {
+        margin-bottom: 10px !important;
+        font-size: 25px !important;
+        padding-left: 0px;
+    }
+
+    .about-content {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-items: center !important;
+    }
+    
+    .about p {
+        width: 250px !important;
+        height: auto !important;
+        font-size: 10px !important;
+        padding-left: 20px !important;
+        padding-top: 5px;
+        
+    }
+
+    .about img {
+        height: 100% !important;
+        width: 100% !important;
+        padding: 20px;
+    }
+}
+
+@mixin about-tablet(){
+    .about {
+        height:300px;
+        padding-top:35px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right:50px;
+    }
+
+    .about h1 {
+        margin-bottom: 25px !important;
+        font-size: 25px !important;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .about p {
+        width: 300px;
+        font-size: 10px !important;
+    }
+
+    .about img {
+        height: 33%;
+        width: 33%;
+    }
+}
+
+@mixin about-laptop(){
+    .about {
+        height:390px;
+        padding-top:50px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+        padding-right:100px;
+    }
+
+    .about h1 {
+        margin-bottom: 35px !important;
+        font-size: 40px !important;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .about p {
+        width: 400px;
+        font-size: 12px !important;
+    }
+
+    .about img {
+        height: 33%;
+        width: 33%;
+    }
+}
+
+@mixin about-desktop(){
+    .about {
+        height:570px;
+        padding-top:80px;
+        padding-bottom: 40px;
+        padding-left: 110px;
+        padding-right:110px;
+    }
+
+    .about h1 {
+        margin-bottom: 45px !important;
+        font-size: 40px !important;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .about p {
+        width: 500px;
+    }
+
+    .about img {
+        height: 33%;
+        width: 33%;
+    }
+}
+
+
+//default: same on all devices rules
 .about {
     background-color: #353434;
-    height:570px;
     margin: 0 auto;
-    padding-top:80px;
-    padding-bottom: 40px;
-    padding-left: 120px;
-    padding-right:120px;
 
 h1 {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-bottom: 45px;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
     text-transform: uppercase;
     color: white;
 }
@@ -27,8 +152,6 @@ h1 {
 
     p {
         color: white;
-        width: 500px;
-       
     }
 
     a {
