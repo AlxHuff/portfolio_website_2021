@@ -15,6 +15,7 @@
        @include header-mobile();
        @include feature-mobile();
        @include skills-mobile();
+       @include work-mobile();
     }
 
 
@@ -23,6 +24,7 @@
         @include header-tablet();
         @include feature-tablet();
         @include skills-tablet();
+        @include work-tablet();
     }
 
 //laptop
@@ -30,6 +32,7 @@
         @include header-laptop();
         @include feature-laptop();
         @include skills-laptop();
+        @include work-laptop();
     }
 
 
@@ -38,4 +41,5 @@
         @include header-desktop();
         @include feature-desktop();
         @include skills-desktop();
+        @include work-desktop();
     }
