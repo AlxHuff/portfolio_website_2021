@@ -24,7 +24,7 @@
 
 
 //tablet
-@media screen and (max-width:992px) and (min-width:768px){
+@media screen and (max-width:992px) and (min-width:426px){
         @include header-tablet();
         @include feature-tablet();
         @include skills-tablet();
@@ -36,7 +36,7 @@
     }
 
 //laptop
-@media screen and (max-width:1366px) and (min-width:1024px){
+@media screen and (max-width:1366px) and (min-width:993px){
         @include header-laptop();
         @include feature-laptop();
         @include skills-laptop();
@@ -49,7 +49,7 @@
 
 
 //desktop
-@media screen and (max-width:1920px) and (min-width:1440px){
+@media screen and (max-width:1920px) and (min-width:1367px){
         @include header-desktop();
         @include feature-desktop();
         @include skills-desktop();
