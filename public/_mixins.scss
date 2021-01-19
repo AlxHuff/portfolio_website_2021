@@ -19,6 +19,7 @@
        @include hireMe-mobile();
        @include about-mobile();
        @include archive-mobile();
+       @include footer-mobile();
     }
 
 
@@ -31,6 +32,7 @@
         @include hireMe-tablet();
         @include about-tablet();
         @include archive-tablet();
+        @include footer-tablet();
     }
 
 //laptop
@@ -42,6 +44,7 @@
         @include hireMe-laptop();
         @include about-laptop();
         @include archive-laptop();
+        @include footer-laptop();
     }
 
 
@@ -54,4 +57,5 @@
         @include hireMe-desktop();
         @include about-desktop();
         @include archive-desktop();
+        @include footer-desktop();
     }
