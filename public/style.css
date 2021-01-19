@@ -371,20 +371,6 @@ header .box .pull-quote {
 
 .archive {
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 120px;
-  padding-right: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
 }
 
 .archive .archive-cta {
@@ -412,20 +398,11 @@ header .box .pull-quote {
 }
 
 .archive .button-cta {
-  width: 200px;
-  height: 50px;
   background-color: #2B7370;
   color: white;
   font-family: Poppins;
-  font-size: 15px;
-  font-weight: 800;
   border-radius: 30px;
   border: 1px solid #2B7370;
-}
-
-.archive img {
-  height: 30%;
-  padding: 15px;
 }
 
 footer {
@@ -703,6 +680,56 @@ footer p .github-link {
     width: 100% !important;
     padding: 20px;
   }
+  .archive {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .archive-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .archive h3 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .button-cta {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .archive img {
+    height: 250px !important;
+    width: 250px !important;
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -930,10 +957,57 @@ footer p .github-link {
   .about p {
     width: 300px;
     font-size: 10px !important;
+    height: auto !important;
   }
   .about img {
     height: 33%;
     width: 33%;
+  }
+  .archive {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .archive-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 30px !important;
+    padding-right: 25px !important;
+    padding-left: 0px;
+  }
+  .archive h3 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .button-cta {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .archive img {
+    height: 140px !important;
+    padding: 10px;
   }
 }
 
@@ -1118,14 +1192,14 @@ footer p .github-link {
   .hireMe {
     margin-bottom: 0px;
     padding-top: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     padding-left: 100px;
     padding-right: 100px;
   }
   .hireMe h3 {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
   }
   .hire-cta {
     width: 200px;
@@ -1160,10 +1234,57 @@ footer p .github-link {
   .about p {
     width: 400px;
     font-size: 12px !important;
+    height: auto !important;
   }
   .about img {
     height: 33%;
     width: 33%;
+  }
+  .archive {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .archive-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 50px !important;
+    padding-right: 40px;
+    padding-left: 0px;
+  }
+  .archive h3 {
+    margin-bottom: 25px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .button-cta {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .archive img {
+    height: 190px !important;
+    padding: 10px;
   }
 }
 
@@ -1364,7 +1485,7 @@ footer p .github-link {
     font-weight: 800;
   }
   .about {
-    height: 570px;
+    height: 550px;
     padding-top: 80px;
     padding-bottom: 40px;
     padding-left: 110px;
@@ -1388,10 +1509,57 @@ footer p .github-link {
   }
   .about p {
     width: 500px;
+    height: auto !important;
   }
   .about img {
     height: 33%;
     width: 33%;
+  }
+  .archive {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 110px;
+    padding-right: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .archive-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 90px;
+    padding-right: 40px;
+    padding-left: 0px;
+  }
+  .archive h3 {
+    margin-bottom: 35px;
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .button-cta {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .archive img {
+    height: 30%;
+    padding: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
