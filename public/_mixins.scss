@@ -7,11 +7,13 @@
 @import "components/_about.scss";
 @import "components/_archive.scss";
 @import "components/_footer.scss";
+@import "components/_navbar.scss";
 
 
 
 //mobile
-@media screen and (max-width:425px) and (min-width:320px) {
+@media screen and (max-width:480px) and (min-width:320px) {
+       @include navbar-mobile(); 
        @include header-mobile();
        @include feature-mobile();
        @include skills-mobile();
@@ -24,7 +26,8 @@
 
 
 //tablet
-@media screen and (max-width:992px) and (min-width:426px){
+@media screen and (max-width:768px) and (min-width:481px){
+        @include navbar-tablet(); 
         @include header-tablet();
         @include feature-tablet();
         @include skills-tablet();
@@ -36,7 +39,8 @@
     }
 
 //laptop
-@media screen and (max-width:1366px) and (min-width:993px){
+@media screen and (max-width:1024) and (min-width:769px){
+        @include navbar-laptop();     
         @include header-laptop();
         @include feature-laptop();
         @include skills-laptop();
@@ -47,9 +51,22 @@
         @include footer-laptop();
     }
 
+//laptopXL
+@media screen and (max-width:1200px) and (min-width:1025px){
+    @include navbar-laptopXL();     
+    @include header-laptopXL();
+    @include feature-laptopXL();
+    @include skills-laptopXL();
+    @include work-laptopXL();
+    @include hireMe-laptopXL();
+    @include about-laptopXL();
+    @include archive-laptopXL();
+    @include footer-laptopXL();
+}
 
 //desktop
-@media screen and (max-width:1920px) and (min-width:1367px){
+@media screen and (min-width:1201){
+        @include navbar-desktop(); 
         @include header-desktop();
         @include feature-desktop();
         @include skills-desktop();

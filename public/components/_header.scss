@@ -7,7 +7,7 @@
         padding-right: 15px;
     }
 
-    h1{
+    .box h1{
         margin-bottom: 15px !important;
         margin-top: 0px !important;
         width: 260px;
@@ -15,7 +15,7 @@
         padding-left: 20px;
     }
 
-    p{  
+   .box p{  
         width: 260px;
         height: 32px;
         font-size: 12px;
@@ -41,13 +41,13 @@
         padding-right: 50px;
     }
 
-    h1{
+    .box h1{
         margin-bottom: 20px !important;
         width: 320px;
         font-size: 25px !important;
     }
 
-    p{  
+    .box p{  
         width: 482px;
         height: 32px;
         font-size: 12px;
@@ -71,13 +71,13 @@
         padding-right:100px;
     }
 
-    h1{
+    .box h1{
         margin-bottom: 20px !important;
         width: 450px;
         font-size: 35px !important;
     }
 
-    p{  
+    .box p{  
         width: 482px;
         height: 32px;
         font-size: 14px;
@@ -92,7 +92,7 @@
     }
 }
 
-@mixin header-desktop(){
+@mixin header-laptopXL(){
     .box{
         height:500px;
         padding-top:10px;
@@ -101,13 +101,13 @@
         padding-right:110px;
     }
 
-    h1{
+    .box h1{
         margin-bottom: 40px !important;
         width: 600px;
         font-size: 45px !important;
     }
 
-    p{  
+    .box p{  
         width: 482px;
         height: 32px;
         font-size: 16px;
@@ -119,6 +119,36 @@
         margin-left: 40px !important;
         height: 600px;
         width: 600px;
+    }
+}
+
+@mixin header-desktop(){
+    .box{
+        height:500px;
+        padding-top:30px !important;
+        padding-bottom: 40px !important;
+        padding-left: 110px !important;
+        padding-right:110px !important;
+    }
+
+    .box h1{
+        margin-bottom: 40px !important;
+        width: 600px;
+        font-size: 40px !important;
+    }
+
+    .box p{  
+        width: 482px;
+        height: 32px;
+        font-size: 16px;
+    }
+
+    .pull-quote {
+        opacity: 100 !important;
+        margin-top: 360px !important;
+        margin-left: 100px !important;
+        height: 65%;
+        width: 65%x;
     }
 }
 

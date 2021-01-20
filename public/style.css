@@ -1,46 +1,3 @@
-.navbar {
-  height: 70px;
-  background: #212121;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
-.navbar .container-fluid {
-  padding: 0px;
-}
-
-.navbar .navbar-brand {
-  margin: 0 auto;
-  margin-right: 45px;
-  color: #FBF781;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 39px;
-}
-
-.navbar .nav-link {
-  margin: 0 auto;
-  padding: 8px;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
-  color: white;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-}
-
-.navbar .nav-icon {
-  height: 30px;
-  width: 30px;
-  padding-top: 5px;
-  padding: 3px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 header .box {
   margin: 0 auto;
   display: -webkit-box;
@@ -407,35 +364,43 @@ header .box .pull-quote {
 
 footer {
   margin: 0 auto;
-  height: 150px;
-  background: #212121;
-  padding-left: 120px;
-  padding-right: 120px;
-  padding-top: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: #212121;
 }
 
 footer p {
   color: #FBF781;
   font-family: Poppins;
   font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  width: 300px;
-  text-align: center;
 }
 
 footer p .github-link {
   color: #FBF781;
   font-family: Poppins;
   font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
+}
+
+.navbar {
+  background: #212121;
+}
+
+.navbar .navbar-brand {
+  margin: 0 auto;
+  color: #FBF781;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  margin: 0 auto;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 425px) and (min-width: 320px) {
@@ -480,7 +445,7 @@ footer p .github-link {
     width: 150px;
     height: 150px;
   }
-  .projectText {
+  .feature .projectText {
     margin-top: -115px !important;
     padding-left: 20px;
   }
@@ -492,7 +457,7 @@ footer p .github-link {
     margin-bottom: 15px;
     font-size: 18px !important;
   }
-  .description {
+  .feature .description {
     margin-bottom: 65px;
     width: 300px;
     font-size: 10px !important;
@@ -730,6 +695,23 @@ footer p .github-link {
     width: 250px !important;
     padding: 20px;
   }
+  .footer footer {
+    height: 50px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 65px;
+  }
+  .footer p {
+    font-weight: 400;
+    font-size: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+  }
+  .github-link {
+    font-weight: 400;
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -770,7 +752,7 @@ footer p .github-link {
     width: 190px;
     height: 190px;
   }
-  .projectText {
+  .feature .projectText {
     margin-top: -150px !important;
     padding-left: 35px;
   }
@@ -782,7 +764,7 @@ footer p .github-link {
     margin-bottom: 10px;
     font-size: 20px !important;
   }
-  .description {
+  .feature .description {
     margin-bottom: 65px;
     width: 250px;
     font-size: 10px !important;
@@ -1009,6 +991,23 @@ footer p .github-link {
     height: 140px !important;
     padding: 10px;
   }
+  .footer footer {
+    height: 100px !important;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+    padding-top: 65px;
+  }
+  .footer p {
+    font-weight: 400;
+    font-size: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+  }
+  .github-link {
+    font-weight: 400;
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1024px) {
@@ -1049,7 +1048,7 @@ footer p .github-link {
     width: 250px;
     height: 250px;
   }
-  .projectText {
+  .feature .projectText {
     margin-top: -195px;
     padding-left: 50px;
   }
@@ -1061,7 +1060,7 @@ footer p .github-link {
     margin-bottom: 22px;
     font-size: 22px !important;
   }
-  .description {
+  .feature .description {
     margin-bottom: 70px;
     width: 350px;
     font-size: 11px !important;
@@ -1286,9 +1285,53 @@ footer p .github-link {
     height: 190px !important;
     padding: 10px;
   }
+  .footer footer {
+    height: 100px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-top: 65px;
+  }
+  .footer p {
+    font-weight: 400;
+    font-size: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+  }
+  .github-link {
+    font-weight: 400;
+    font-size: 10px;
+  }
 }
 
-@media screen and (max-width: 1920px) and (min-width: 1440px) {
+@media screen and (max-width: 1920px) and (min-width: 1367px) {
+  .navbar {
+    height: 70px;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+  }
+  .container-fluid {
+    padding: 0px;
+  }
+  .navbar-brand {
+    margin-right: 45px;
+    font-size: 20px;
+    line-height: 39px;
+  }
+  .nav-link {
+    padding: 8px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-size: 12px;
+  }
+  .nav-icon {
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .box {
     height: 500px;
     padding-top: 10px;
@@ -1326,7 +1369,7 @@ footer p .github-link {
     width: 350px;
     height: 350px;
   }
-  .projectText {
+  .feature .projectText {
     margin-top: -265px;
     padding-left: 70px;
   }
@@ -1338,7 +1381,7 @@ footer p .github-link {
     margin-bottom: 22px;
     font-size: 25px !important;
   }
-  .description {
+  .feature .description {
     margin-bottom: 90px;
     width: 350px;
     font-size: 12px !important;
@@ -1560,6 +1603,23 @@ footer p .github-link {
   .archive img {
     height: 30%;
     padding: 15px;
+  }
+  .footer footer {
+    height: 150px;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+    padding-top: 65px;
+  }
+  .footer p {
+    font-weight: 400;
+    font-size: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+  }
+  .github-link {
+    font-weight: 400;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
