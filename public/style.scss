@@ -1,3 +1,9 @@
-
-
 @import "_mixins.scss";
+
+body {
+    margin:0 auto;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    padding: 0px;
+}

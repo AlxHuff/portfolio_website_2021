@@ -160,6 +160,59 @@
         }
 }
 
+@mixin feature-laptopXL(){
+    .feature { 
+        margin-bottom: 0px;
+        height: 350px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+        padding-right:100px;
+        }
+       
+        .feature svg {
+            margin-left: 0px;    
+            width: 250px; 
+            height: 250px;
+        }
+    
+        .feature .projectText {
+            margin-top: -195px;
+            padding-left: 50px;
+        }
+    
+        .feature h2 {
+            font-size: 12px !important;
+            letter-spacing: 0.435em !important;
+        }
+    
+        .feature h3 {
+            margin-bottom: 22px;
+            font-size: 22px !important;
+        }
+    
+        .feature .description {
+            margin-bottom: 70px;
+            width: 350px;    
+            font-size: 11px !important;
+            line-height: 20px !important;
+        }
+    
+        .project-cta {
+            width: 125px;
+            height: 30px;
+            font-size: 11px;
+        }
+    
+        .feature-thumbnail {
+            opacity: 100;
+            width: 62%;
+            height: 62%;
+            margin-left: 414px;
+            margin-top: -315px !important;
+        }
+}
+
 @mixin feature-desktop(){
     .feature { 
     margin-bottom: 0px;

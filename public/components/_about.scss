@@ -4,8 +4,8 @@
         height:660px;
         padding-top:35px;
         padding-bottom: 20px;
-        padding-left: 15px;
-        padding-right:15px;
+        padding-left: 20px;
+        padding-right:20px;
     }
 
     .about h1 {
@@ -32,7 +32,7 @@
     .about img {
         height: 100% !important;
         width: 100% !important;
-        padding: 20px;
+        padding: 0px;
     }
 }
 
@@ -69,6 +69,38 @@
 }
 
 @mixin about-laptop(){
+    .about {
+        height:390px;
+        padding-top:50px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+        padding-right:100px;
+    }
+
+    .about h1 {
+        margin-bottom: 35px !important;
+        font-size: 40px !important;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .about p {
+        width: 400px;
+        font-size: 12px !important;
+        height: auto !important;
+    }
+
+    .about img {
+        height: 33%;
+        width: 33%;
+    }
+}
+
+@mixin about-laptopXL(){
     .about {
         height:390px;
         padding-top:50px;

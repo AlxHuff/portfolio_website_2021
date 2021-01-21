@@ -1,32 +1,32 @@
 @mixin header-mobile(){
     .box{
         height:270px;
+        width: auto;
         padding-top:10px;
         padding-bottom: 20px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .box h1{
         margin-bottom: 15px !important;
         margin-top: 0px !important;
-        width: 260px;
-        font-size: 20px !important;
-        padding-left: 20px;
+        width: auto;
+        font-size: 150%;
+        padding-left: 0%;
     }
 
    .box p{  
-        width: 260px;
-        height: 32px;
-        font-size: 12px;
-        padding-left: 20px;
+        width: auto;
+        font-size: 75%;
+        padding-left: 0%;
     }
 
     .pull-quote {
         opacity: 0 !important;
-        margin-top: 330px !important;
-        margin-left: -230px !important;
-        height: 230px;
+        margin-top: 80px !important;
+        margin-left: -260px !important;
+        height: auto;
         width: 230px;
     }
 }

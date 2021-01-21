@@ -53,15 +53,15 @@
 
 //laptopXL
 @media screen and (max-width:1200px) and (min-width:1025px){
-    @include navbar-laptopXL();     
-    @include header-laptopXL();
-    @include feature-laptopXL();
-    @include skills-laptopXL();
-    @include work-laptopXL();
-    @include hireMe-laptopXL();
-    @include about-laptopXL();
-    @include archive-laptopXL();
-    @include footer-laptopXL();
+        @include navbar-laptopXL();     
+        @include header-laptopXL();
+        @include feature-laptopXL();
+        @include skills-laptopXL();
+        @include work-laptopXL();
+        @include hireMe-laptopXL();
+        @include about-laptopXL();
+        @include archive-laptopXL();
+        @include footer-laptopXL();
 }
 
 //desktop
