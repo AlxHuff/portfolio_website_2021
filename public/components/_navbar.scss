@@ -30,7 +30,7 @@
         font-size: 12px;
     }
 
-    svg .nav-icon {
+    .nav-icon {
         height: 30px !important;
         width: 30px !important;
         padding-top:5px;
@@ -65,9 +65,9 @@
     }
 
     .nav-icon {
-        height: 30px;
-        width: 30px;
-        padding-top:5px;
+        height: 30px !important;
+        width: 30px  !important;
+        padding-top:5px  !important;
         padding:3px;
         margin-left: 10px;
         margin-right: 10px;

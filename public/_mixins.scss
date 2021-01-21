@@ -39,7 +39,7 @@
     }
 
 //laptop
-@media screen and (max-width:1024) and (min-width:769px){
+@media screen and (max-width:1024px) and (min-width:769px){
         @include navbar-laptop();     
         @include header-laptop();
         @include feature-laptop();
@@ -65,7 +65,7 @@
 }
 
 //desktop
-@media screen and (min-width:1201){
+@media screen and (min-width:1201px){
         @include navbar-desktop(); 
         @include header-desktop();
         @include feature-desktop();
