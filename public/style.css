@@ -315,10 +315,12 @@ header .box .pull-quote {
 
 .about .about-content p {
   color: white;
+  font-family: Poppins;
 }
 
 .about .about-content a {
   color: #FBF781;
+  font-family: Poppins;
 }
 
 .about .about-content img {
@@ -397,7 +399,6 @@ header .box .pull-quote {
 }
 
 .navbar .navbar-brand {
-  margin: 0 auto;
   color: #FBF781;
   font-weight: bold;
 }
@@ -412,15 +413,18 @@ header .box .pull-quote {
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
   .navbar {
-    height: 70px;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    height: 55px;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
   }
   .container-fluid {
     padding: 0px;
   }
   .navbar-brand {
-    margin-right: 50px !important;
+    margin-left: 0 !important;
+    margin-right: 35% !important;
     font-size: 18px !important;
     line-height: 39px;
   }
@@ -431,18 +435,17 @@ header .box .pull-quote {
     font-size: 12px;
   }
   .nav-icon {
-    height: 10px !important;
-    width: auto;
+    width: 8%;
     padding-top: 5px;
-    padding: 3px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
-  .box {
-    height: 270px;
+  header .box {
+    height: 250px;
     width: auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-bottom: 10%;
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -467,72 +470,74 @@ header .box .pull-quote {
   }
   .feature {
     margin-bottom: 0px;
-    height: 450px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .feature svg {
     margin-left: 0px;
-    margin-top: 180px;
-    width: 150px;
-    height: 150px;
+    margin-top: 5%;
+    width: 52%;
+    height: 52%;
   }
   .feature .projectText {
-    margin-top: -115px !important;
-    padding-left: 20px;
+    margin-top: -42%;
+    padding-left: 5%;
   }
   .feature h2 {
+    margin: 0;
     font-size: 10px !important;
     letter-spacing: 0.435em !important;
+    margin-bottom: 1%;
   }
   .feature h3 {
-    margin-bottom: 15px;
+    margin: 0 auto;
+    margin-bottom: 2%;
     font-size: 18px !important;
   }
   .feature .description {
-    margin-bottom: 65px;
-    width: 300px;
-    font-size: 10px !important;
-    line-height: 20px !important;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    width: auto;
+    font-size: 12px !important;
+    line-height: 22px !important;
     padding-left: 0px;
   }
   .project-cta {
-    width: 110px;
-    height: 30px;
-    font-size: 10px;
+    width: 45%;
+    height: 35px;
+    font-size: 12px;
   }
   .feature-thumbnail {
     opacity: 100;
     width: 100%;
     height: 100%;
-    margin-left: 16px;
-    margin-top: -700px !important;
+    margin-left: 0px;
+    margin-top: -18% !important;
   }
   .skills {
-    height: 980px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .skills h1 {
-    margin-bottom: 20px !important;
-    margin-left: 0px !important;
-    font-size: 25px !important;
+    margin-bottom: 8%;
+    margin-left: 0px;
+    font-size: 150%;
   }
   .resume-cta {
-    width: 150px;
+    width: 45%;
     height: 40px;
-    font-size: 14px !important;
+    font-size: 12px;
     font-weight: 800;
     border-radius: 30px;
   }
   .skills-row {
     margin-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -546,11 +551,9 @@ header .box .pull-quote {
   }
   .skills-card {
     margin-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 30px;
-    width: 200px;
-    height: 250px;
+    padding: 8%;
+    width: auto;
+    height: 50%;
     border-radius: 20px;
   }
   .card-icon {
@@ -558,65 +561,66 @@ header .box .pull-quote {
     margin-bottom: 15px;
   }
   .skills h2 {
-    font-size: 10px !important;
-    font-weight: 800 !important;
-    margin-bottom: 5px !important;
+    font-size: 85%;
+    font-weight: 800;
+    margin-bottom: 8%;
   }
   .skills img {
-    width: 150px;
+    width: 180px;
     margin-left: 0px;
   }
   .work {
-    height: 1520px;
-    margin-bottom: 0px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: auto;
+    margin-bottom: 0;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .work h1 {
-    margin-bottom: 20px !important;
-    font-size: 25px !important;
-    padding-left: 0px;
+    margin-bottom: 8%;
+    margin-left: 0px;
+    font-size: 150%;
   }
   .work-panel {
-    height: 460px;
-    margin-bottom: 25px;
+    height: auto;
+    margin-bottom: 12%;
   }
   .work svg {
     margin-left: 0px;
-    margin-top: 0px;
-    width: 150px;
-    height: 150px;
+    margin-top: 0%;
+    width: 52%;
+    height: 52%;
   }
   .work .projectText {
-    margin-top: -120px !important;
-    margin-left: 0px;
-    padding-left: 20px;
+    margin-top: -42%;
+    padding-left: 5%;
   }
   .work h2 {
-    font-size: 9px !important;
-    width: 250px !important;
-    margin-bottom: 5px;
+    margin: 0;
+    font-size: 10px !important;
+    letter-spacing: 0.435em !important;
+    margin-bottom: 1%;
   }
   .work h3 {
-    margin-bottom: 10px !important;
+    margin: 0 auto;
+    margin-bottom: 2%;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 18px;
   }
   .work .description {
-    width: 240px;
-    height: auto;
-    font-weight: 500 !important;
-    font-size: 9px !important;
-    line-height: 18px !important;
-    margin-bottom: 5px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    width: auto;
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 0px;
   }
   .work .project-cta {
-    margin-top: 10px !important;
-    width: 110px;
-    height: 30px;
-    font-size: 10px;
+    margin-top: 0px;
+    width: 45%;
+    height: 35px;
+    font-size: 12px;
     font-weight: 600;
   }
   .work .feature-thumbnail {
@@ -624,38 +628,40 @@ header .box .pull-quote {
     height: 100%;
     margin-left: 0px !important;
     margin-top: 0px !important;
-    margin-bottom: 25px;
+    margin-bottom: 5%;
   }
   .hireMe {
     margin-bottom: 0px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .hireMe h3 {
-    margin-bottom: 20px;
+    margin: 0 auto;
     font-weight: 800;
+    margin-bottom: 5%;
     font-size: 20px;
   }
   .hire-cta {
-    width: 150px;
+    width: 45%;
     height: 40px;
-    margin-bottom: 0px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
+    border-radius: 30px;
   }
   .about {
-    height: 660px;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .about h1 {
-    margin-bottom: 10px !important;
-    font-size: 25px !important;
-    padding-left: 0px;
+    margin-bottom: 8%;
+    margin-left: 0px;
+    font-size: 150%;
   }
   .about-content {
     display: -webkit-box !important;
@@ -665,25 +671,27 @@ header .box .pull-quote {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    justify-items: center !important;
+    justify-items: center;
   }
   .about p {
-    width: 250px !important;
-    height: auto !important;
-    font-size: 10px !important;
-    padding-left: 20px !important;
-    padding-top: 5px;
+    margin: 0 auto;
+    margin-bottom: 0%;
+    width: auto;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 0px;
   }
   .about img {
-    height: 100% !important;
+    margin-bottom: 8%;
     width: 100% !important;
     padding: 0px;
   }
   .archive {
-    padding-top: 40px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -699,66 +707,64 @@ header .box .pull-quote {
             align-items: center;
   }
   .archive-cta {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: auto;
+    padding-bottom: 5%;
     padding-top: 0px !important;
     padding-right: 0px !important;
-    padding-left: 0px !important;
+    padding-left: 0px;
   }
   .archive h3 {
-    margin-bottom: 20px;
-    font-weight: 800;
+    margin: 0 auto;
+    margin-bottom: 5%;
     font-size: 20px;
   }
   .button-cta {
     width: 150px;
     height: 40px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
+    border-radius: 30px;
   }
   .archive img {
-    height: 250px !important;
-    width: 250px !important;
-    padding: 20px;
+    height: 100% !important;
+    width: 100% !important;
+    padding: 5%;
   }
-  .footer footer {
-    height: 50px !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    padding-top: 65px;
+  footer {
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  .footer p {
+  #footer-text {
+    margin: 0 auto;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 60%;
     width: 300px;
     text-align: center;
     padding: 0px;
   }
   .github-link {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 100%;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
   .navbar {
-    height: 70px;
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+    height: 65px;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    padding-left: 7% !important;
+    padding-right: 7% !important;
   }
   .container-fluid {
     padding: 0px;
   }
   .navbar-brand {
-    margin-right: 50px !important;
+    margin-left: 0 !important;
+    margin-right: 57% !important;
     font-size: 18px !important;
     line-height: 39px;
   }
@@ -769,53 +775,55 @@ header .box .pull-quote {
     font-size: 12px;
   }
   .nav-icon {
-    height: 30px !important;
-    width: 30px !important;
-    padding-top: 5px;
-    padding: 3px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 6%;
+    padding: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   .box {
     height: 300px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 0% !important;
+    padding-bottom: 2% !important;
+    padding-left: 7% !important;
+    padding-right: 7% !important;
   }
   .box h1 {
-    margin-bottom: 20px !important;
-    width: 320px;
-    font-size: 25px !important;
+    margin-bottom: 15px !important;
+    margin-top: 0px !important;
+    width: 100%;
+    font-size: 160%;
+    padding-left: 0%;
   }
   .box p {
-    width: 482px;
-    height: 32px;
-    font-size: 12px;
+    width: auto;
+    font-size: 75%;
+    padding-left: 0%;
   }
   .pull-quote {
     opacity: 100 !important;
-    margin-top: 200px !important;
-    margin-left: 40px !important;
-    height: 320px;
-    width: 320px;
+    margin-top: 55% !important;
+    margin-left: 0% !important;
+    height: auto;
+    width: 100%;
   }
   .feature {
     margin-bottom: 0px;
-    height: 290px;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: auto;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    padding-left: 7% !important;
+    padding-right: 7% !important;
   }
   .feature svg {
+    margin-top: -36% !important;
     margin-left: 0px !important;
-    width: 190px;
-    height: 190px;
+    width: 27%;
+    height: 27%;
   }
   .feature .projectText {
-    margin-top: -150px !important;
-    padding-left: 35px;
+    margin-top: -28% !important;
+    padding-left: 4%;
+    width: 45%;
   }
   .feature h2 {
     font-size: 10px !important;
@@ -826,8 +834,7 @@ header .box .pull-quote {
     font-size: 20px !important;
   }
   .feature .description {
-    margin-bottom: 65px;
-    width: 250px;
+    margin-bottom: 3%;
     font-size: 10px !important;
     line-height: 18px !important;
   }
@@ -839,10 +846,10 @@ header .box .pull-quote {
   }
   .feature-thumbnail {
     opacity: 100;
-    width: 58%;
-    height: 58%;
-    margin-left: 332px;
-    margin-top: -315px !important;
+    width: 55%;
+    height: 55%;
+    margin-left: 48%;
+    margin-top: -9% !important;
   }
   .skills {
     height: 430px;
@@ -1548,8 +1555,8 @@ header .box .pull-quote {
     padding-right: 100px;
   }
   .work h1 {
-    margin-bottom: 60px !important;
-    font-size: 40px !important;
+    margin-bottom: 60px;
+    font-size: 40px;
   }
   .work-panel {
     height: 340px;
@@ -1567,24 +1574,24 @@ header .box .pull-quote {
     padding-left: 25px;
   }
   .work h2 {
-    font-size: 10px !important;
-    width: 300px !important;
+    font-size: 10px;
+    width: 300px;
   }
   .work h3 {
-    margin-bottom: 15px !important;
+    margin-bottom: 15px;
     font-weight: 800;
-    font-size: 22px !important;
+    font-size: 22px;
   }
   .work .description {
     width: 300px;
     height: auto;
-    font-weight: 500 !important;
-    font-size: 11px !important;
-    line-height: 20px !important;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
     margin-bottom: 0px;
   }
   .work .project-cta {
-    margin-top: 20px !important;
+    margin-top: 20px;
     width: 135px;
     height: 35px;
     font-size: 12px;
@@ -2036,6 +2043,11 @@ header .box .pull-quote {
     font-weight: 400;
     font-size: 10px;
   }
+}
+
+html {
+  display: block;
+  font-family: Poppins;
 }
 
 body {

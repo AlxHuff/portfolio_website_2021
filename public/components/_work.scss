@@ -1,63 +1,64 @@
 @mixin work-mobile(){
     .work {
-        height: 1520px;
-        margin-bottom: 0px;
-        padding-top:40px;
-        padding-bottom: 20px;
-        padding-left: 15px;
-        padding-right:15px;
+        height: auto;
+        margin-bottom: 0;
+        padding-top:10%;
+        padding-bottom: 0%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .work h1 {
-        margin-bottom: 20px !important;
-        font-size: 25px !important;
-        padding-left: 0px;
+        margin-bottom:8%;
+        margin-left: 0px;
+        font-size: 150%
     }
 
     .work-panel {
-        height: 460px;
-        margin-bottom: 25px;
+        height: auto;
+        margin-bottom: 12%;
     }
 
     .work svg {
         margin-left: 0px;
-        margin-top: 0px;
-        width: 150px;
-        height: 150px;
+        margin-top: 0%;    
+        width: 52%; 
+        height: 52%;
     }
 
     .work .projectText {
-        margin-top: -120px !important;
-        margin-left: 0px;
-        padding-left: 20px;
+        margin-top: -42%;
+        padding-left: 5%;
     }
 
     .work h2 {
-        font-size: 9px !important;
-        width: 250px !important;
-        margin-bottom: 5px;
+        margin: 0;
+        font-size: 10px !important;
+        letter-spacing: 0.435em !important;
+        margin-bottom: 1%;
     }
 
     .work h3 {
-        margin-bottom: 10px !important;
+        margin: 0 auto;
+        margin-bottom: 2%;
         font-weight: 800;
-        font-size: 20px;
+        font-size: 18px;
     }
 
    .work .description {
-        width: 240px;
-        height: auto;    
-        font-weight: 500 !important;
-        font-size: 9px !important;
-        line-height: 18px !important;
-        margin-bottom: 5px;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        width: auto;    
+        font-size: 12px;
+        line-height: 22px;
+        padding-left: 0px;
     }
 
     .work .project-cta {
-        margin-top: 10px !important;
-        width: 110px;
-        height: 30px;
-        font-size: 10px;
+        margin-top: 0px;
+        width: 45%;
+        height: 35px;
+        font-size: 12px;
         font-weight: 600;
     }
 
@@ -66,7 +67,7 @@
         height: 100%;
         margin-left: 0px !important;
         margin-top: 0px !important;
-        margin-bottom: 25px;
+        margin-bottom: 5%;
     }
 }
 
@@ -222,8 +223,8 @@
     }
 
     .work h1 {
-        margin-bottom: 60px !important;
-        font-size: 40px !important;
+        margin-bottom: 60px ;
+        font-size: 40px ;
     }
 
     .work-panel {
@@ -245,27 +246,27 @@
     }
 
     .work h2 {
-        font-size: 10px !important;
-        width: 300px !important;
+        font-size: 10px;
+        width: 300px ;
     }
 
     .work h3 {
-        margin-bottom: 15px !important;
+        margin-bottom: 15px ;
         font-weight: 800;
-        font-size: 22px !important;
+        font-size: 22px ;
     }
 
    .work .description {
         width: 300px;
         height: auto;    
-        font-weight: 500 !important;
-        font-size: 11px !important;
-        line-height: 20px !important;
+        font-weight: 500 ;
+        font-size: 11px ;
+        line-height: 20px ;
         margin-bottom: 0px;
     }
 
     .work .project-cta {
-        margin-top: 20px !important;
+        margin-top: 20px ;
         width: 135px;
         height: 35px;
         font-size: 12px;

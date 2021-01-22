@@ -1,15 +1,17 @@
 
 @mixin footer-mobile() {
-    .footer footer {
-        height: 50px !important;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-        padding-top: 65px;
+     footer {
+        height: auto;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
         }
     
-       .footer p {
+       #footer-text {
+           margin: 0 auto;;
             font-weight: 400;
-            font-size: 10px;
+            font-size: 60%;
             width: 300px;
             text-align: center;
             padding: 0px;
@@ -17,7 +19,7 @@
     
         .github-link {
             font-weight: 400;
-            font-size: 10px;
+            font-size: 100%;
         }
 }
 

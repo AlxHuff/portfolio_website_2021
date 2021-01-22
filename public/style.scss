@@ -1,5 +1,11 @@
 @import "_mixins.scss";
 
+html{
+    display: block;
+    font-family: Poppins;
+}
+
+
 body {
     margin:0 auto;
     width: auto;
