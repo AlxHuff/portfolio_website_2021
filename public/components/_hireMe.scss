@@ -29,24 +29,26 @@
 @mixin hireMe-tablet(){
     .hireMe {
         margin-bottom: 0px;
-        padding-top:20px;
-        padding-bottom: 50px;
-        padding-left: 50px;
-        padding-right:50px;
+        height: auto;
+        padding-top: 1% !important;
+        padding-bottom: 5% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
     }
 
     .hireMe h3 {
-        margin-bottom: 20px;
+        margin: 0 auto;
         font-weight: 800;
-        font-size: 20px;
+        margin-bottom: 3%;
+        font-size: 120%;
     }
     
     .hire-cta {
-        width: 150px;
+        width: 25%;
         height: 40px;
-        margin-bottom: 0px;
-        font-size: 14px;
+        font-size: 90%;
         font-weight: 800;
+        border-radius: 30px;
     }
 }
 
