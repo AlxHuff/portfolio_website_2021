@@ -38,6 +38,7 @@
         @include footer-tablet();
     }
 
+
 //laptop
 @media screen and (max-width:1024px) and (min-width:769px){
         @include navbar-laptop();     

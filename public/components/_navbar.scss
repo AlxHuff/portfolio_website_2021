@@ -71,17 +71,40 @@
 
 @mixin navbar-laptop() {
     .navbar {
-        height: 70px;
-        padding-left: 100px !important;
-        padding-right: 100px !important;
+        height: 65px;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
     }
 
-    .container-fluid {
-        padding: 0px;
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap !important;
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        flex-flow: row nowrap !important;
+        -ms-flex-pack: start !important;
+        -webkit-box-pack: start !important;
+        justify-content: flex-start !important;
+    }
+
+
+    #nav-items {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-direction: row !important;
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        flex-direction: row !important;
+        padding-left: 0 !important;
+        margin-bottom: 0 !important;
+        list-style: none !important;
     }
 
     .navbar-brand {
-        margin-right: 50px !important;
+        margin-left: 0 !important;
+        margin-right: 5% !important;
         font-size: 18px !important;
         line-height: 39px;
     }
@@ -94,12 +117,10 @@
     }
 
     .nav-icon {
-        height: 30px !important;
-        width: 30px !important;
-        padding-top:5px;
-        padding:3px;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 7%;
+        padding: 2%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
 

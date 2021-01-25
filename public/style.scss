@@ -13,3 +13,31 @@ body {
     background-color: transparent;
     padding: 0px;
 }
+
+@media (min-width: 768px) {
+   
+   #nav-override{
+    flex-flow: row nowrap !important;
+    justify-content: flex-start !important;
+   }
+   
+    .navbar-expand-lg {
+     flex-flow: row nowrap !important;
+     justify-content: flex-start !important;
+     }
+     
+     .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+     }
+
+     #nav-items {
+         display: flex !important;
+         flex-direction: row !important;
+         padding-left: 0 !important;
+         margin-bottom: 0 !important;
+         list-style: none !important;
+     }
+ }
