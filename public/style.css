@@ -1807,7 +1807,7 @@ header .box .pull-quote {
   }
 }
 
-@media screen and (min-width: 1201px) and (min-width: 1440px) {
+@media screen and (max-width: 1440px) and (min-width: 1201px) {
   .navbar {
     height: 70px;
     padding-left: 110px !important;
