@@ -74,23 +74,25 @@
     }
 
     .box h1{
-        margin-bottom: 20px !important;
-        width: 450px;
-        font-size: 35px !important;
+        margin-bottom: 5% !important;
+        margin-top: 0px !important;
+        width: auto;
+        font-size: 190% !important;
+        padding-left: 0%;
     }
 
     .box p {  
-        width: 482px;
-        height: 32px;
-        font-size: 14px;
+        width: auto;
+        font-size: 80%;
+        padding-left: 0%;
     }
 
     .pull-quote {
         opacity: 100 !important;
-        margin-top: 250px !important;
-        margin-left: 30px !important;
-        height: 390px;
-        width: 390px;
+        margin-top: 70% !important;
+        margin-left: -10% !important;
+        height: auto;
+        width: 108%;
     }
 }
 
