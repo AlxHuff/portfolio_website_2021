@@ -66,7 +66,7 @@
 }
 
 //desktop
-@media screen and (min-width:1201px){
+@media screen and (min-width:1201px) and (min-width:1440px){
         @include navbar-desktop(); 
         @include header-desktop();
         @include feature-desktop();
@@ -77,3 +77,16 @@
         @include archive-desktop();
         @include footer-desktop();
     }
+
+//desktopXL
+@media screen and (min-width:1441px){
+    @include navbar-desktopXL(); 
+    @include header-desktopXL();
+    @include feature-desktopXL();
+    @include skills-desktopXL();
+    @include work-desktopXL();
+    @include hireMe-desktopXL();
+    @include about-desktopXL();
+    @include archive-desktopXL();
+    @include footer-desktopXL();
+}

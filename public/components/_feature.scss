@@ -280,6 +280,17 @@
         margin-top: -405px !important;
     }
 }
+
+@mixin feature-desktopXL(){
+    .feature { 
+    margin-bottom: 0px;
+    height: 540px;
+    padding-top:80px;
+    padding-bottom: 70px;
+    padding-left: 110px;
+    padding-right:110px;
+    }
+}
     
     
 //default: same on all devices rules

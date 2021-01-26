@@ -117,6 +117,16 @@
     }
 }
 
+
+@mixin footer-desktopXL() {
+    #footer {
+    height: 150px !important;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+    padding-top: 65px;
+    }
+}
+
 //default: same on all devices rules
 #footer {
     margin:0 auto;

@@ -157,6 +157,16 @@
     }
 }
 
+@mixin header-desktopXL(){
+    .box{
+        height:500px;
+        padding-top:30px !important;
+        padding-bottom: 40px !important;
+        padding-left: 110px !important;
+        padding-right:110px !important;
+    }
+}
+
 
 //default: same on all devices rules
 header {

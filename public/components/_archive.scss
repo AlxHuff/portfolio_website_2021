@@ -205,6 +205,18 @@
     }
 }
 
+@mixin archive-desktopXL(){
+    .archive {
+        padding-top:100px;
+        padding-bottom: 100px;
+        padding-left: 110px;
+        padding-right:110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
 //default: same on all devices rules
 .archive {
     margin: 0 auto;

@@ -131,6 +131,16 @@
     }
 }
 
+@mixin hireMe-desktopXL(){
+    .hireMe {
+        margin-bottom: 0px;
+        padding-top:100px;
+        padding-bottom: 100px;
+        padding-left: 110px;
+        padding-right:110px;
+    }
+}
+
 
 //default: same on all devices rules
 .hireMe {

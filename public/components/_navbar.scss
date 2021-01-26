@@ -195,6 +195,15 @@
     }
 }
 
+@mixin navbar-desktopXL() {
+    .navbar {
+        height: 70px;
+        padding-left: 110px !important;
+        padding-right: 110px !important;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+}
 
 //default: same on all devices rules
 .navbar {

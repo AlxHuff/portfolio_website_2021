@@ -1807,7 +1807,7 @@ header .box .pull-quote {
   }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (min-width: 1440px) {
   .navbar {
     height: 70px;
     padding-left: 110px !important;
@@ -2129,6 +2129,87 @@ header .box .pull-quote {
   .github-link {
     font-weight: 400;
     font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .navbar {
+    height: 70px;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .box {
+    height: 500px;
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+  }
+  .feature {
+    margin-bottom: 0px;
+    height: 540px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .skills {
+    height: 800px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .work {
+    height: 1700px;
+    margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .hireMe {
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .about {
+    height: 550px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .archive {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 110px;
+    padding-right: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #footer {
+    height: 150px !important;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+    padding-top: 65px;
   }
 }
 

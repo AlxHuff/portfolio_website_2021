@@ -281,6 +281,16 @@
     }
 }
 
+@mixin skills-desktopXL(){
+    .skills {
+        height: 800px;
+        padding-top:80px;
+        padding-bottom: 40px;
+        padding-left: 110px;
+        padding-right:110px;
+    }
+}
+
 
 //default: same on all devices rules
 .skills {

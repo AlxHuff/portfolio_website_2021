@@ -374,6 +374,16 @@
     }
 }
 
+@mixin work-desktopXL(){
+    .work {
+        height: 1700px;
+        margin-bottom: 0px;
+        padding-top:80px;
+        padding-bottom: 20px;
+        padding-left: 110px;
+        padding-right:110px;
+    }
+}
 
 //default: same on all devices rules
 .work {
