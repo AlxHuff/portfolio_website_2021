@@ -174,53 +174,57 @@
 @mixin feature-laptopXL(){
     .feature { 
         margin-bottom: 0px;
-        height: 350px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 100px;
-        padding-right:100px;
+        height: auto;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
         }
        
         .feature svg {
-            margin-left: 0px;    
-            width: 250px; 
-            height: 250px;
+            margin-top: -30% !important;
+            margin-left: 0px !important;    
+            width: 27%; 
+            height: 27%;
         }
     
         .feature .projectText {
-            margin-top: -195px;
-            padding-left: 50px;
+            margin-top: -24% !important;
+            padding-left: 4%;
+            width: 40%;   
         }
     
         .feature h2 {
+            margin: 0;
             font-size: 12px !important;
             letter-spacing: 0.435em !important;
+            margin-bottom: 1%;
         }
     
         .feature h3 {
-            margin-bottom: 22px;
+            margin-bottom: 3% !important;
             font-size: 22px !important;
         }
     
         .feature .description {
-            margin-bottom: 70px;
-            width: 350px;    
-            font-size: 11px !important;
+            margin-bottom: 3%;
+            font-size: 12px !important;
             line-height: 20px !important;
         }
     
         .project-cta {
-            width: 125px;
-            height: 30px;
-            font-size: 11px;
+            width: 35%;
+            height: 35px;
+            font-size: 12px;
+            margin-top: 3%;
         }
     
         .feature-thumbnail {
             opacity: 100;
-            width: 62%;
-            height: 62%;
-            margin-left: 414px;
-            margin-top: -315px !important;
+            width: 55%;
+            height: 55%;
+            margin-left: 48%;
+            margin-top: -11% !important;
         }
 }
 

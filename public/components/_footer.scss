@@ -72,25 +72,27 @@
 }
 
 @mixin footer-laptopXL() {
-    .footer footer {
-        height: 100px !important;
-        padding-left: 100px !important;
-        padding-right: 100px !important;
-        padding-top: 65px;
-        }
+    #footer {
+        height: auto;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+    }
     
-       .footer p {
-            font-weight: 400;
-            font-size: 10px;
-            width: 300px;
-            text-align: center;
-            padding: 0px;
-        }
+    #footer-text {
+        margin: 0 auto;;
+        font-weight: 400;
+        font-size: 70% !important;
+        width: 300px;
+        text-align: center;
+        padding: 0px;
+    }
     
-        .github-link {
-            font-weight: 400;
-            font-size: 10px;
-        }
+    .github-link {
+        font-weight: 400;
+        font-size: 100%;
+    }
 }
 
 @mixin footer-desktop() {

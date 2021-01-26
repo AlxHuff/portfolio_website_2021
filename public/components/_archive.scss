@@ -125,10 +125,10 @@
 
 @mixin archive-laptopXL(){
     .archive {
-        padding-top:50px;
-        padding-bottom: 50px;
-        padding-left: 100px;
-        padding-right:100px;
+        padding-top: 6% !important;
+        padding-bottom: 5% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -138,27 +138,31 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 50px !important;
+        padding-top: 55px !important;
         padding-right: 40px;
         padding-left: 0px;
     }
 
     .archive h3 {
-        margin-bottom: 25px;
+        margin-bottom: 10%;
         font-weight: 800;
-        font-size: 20px;
+        font-size: 22px;
     }
+
 
     .button-cta {
         width: 200px;
-        height: 50px;
-        font-size: 15px;
+        height: 170%;
+        font-size: 90%;
         font-weight: 800;
+        border-radius: 30px;
     }
 
+
     .archive img {
-        height:  190px !important;
-        padding: 10px;
+        height:  22% !important;
+        width: 22% !important;
+        padding: 1%;
     }
 }
 
