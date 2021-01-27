@@ -168,10 +168,10 @@
 
 @mixin archive-desktop(){
     .archive {
-        padding-top:100px;
-        padding-bottom: 100px;
-        padding-left: 110px;
-        padding-right:110px;
+        padding-top: 6% !important;
+        padding-bottom: 5% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -181,27 +181,29 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 90px;
+        padding-top: 75px !important;
         padding-right: 40px;
         padding-left: 0px;
     }
 
     .archive h3 {
-        margin-bottom: 35px;
+        margin-bottom: 10%;
         font-weight: 800;
         font-size: 25px;
     }
 
     .button-cta {
-        width: 200px;
-        height: 50px;
-        font-size: 15px;
+        width: 220px;
+        height: 170%;
+        font-size: 110%;
         font-weight: 800;
+        border-radius: 30px;
     }
 
     .archive img {
-        height: 30%;
-        padding: 15px;
+        height:  22% !important;
+        width: 22% !important;
+        padding: 1%;
     }
 }
 

@@ -230,55 +230,59 @@
 
 @mixin feature-desktop(){
     .feature { 
-    margin-bottom: 0px;
-    height: 540px;
-    padding-top:80px;
-    padding-bottom: 70px;
-    padding-left: 110px;
-    padding-right:110px;
-    }
-   
-    .feature svg {
-        margin-left: 0px;
-        width: 350px; 
-        height: 350px;
-    }
-
-    .feature .projectText {
-        margin-top: -265px;
-        padding-left: 70px;
-    }
-
-    .feature h2 {
-        font-size: 12px !important;
-        letter-spacing: 0.435em !important;
-    }
-
-    .feature h3 {
-        margin-bottom: 22px;
-        font-size: 25px !important;
-    }
-
-    .feature .description {
-        margin-bottom: 90px;
-        width: 350px;    
-        font-size: 12px !important;
-        line-height: 25px !important;
-    }
-
-    .project-cta {
-        width: 135px;
-        height: 35px;
-        font-size: 12px;
-    }
-
-    .feature-thumbnail {
-        opacity: 100;
-        width: 62%;
-        height: 62%;
-        margin-left: 574px;
-        margin-top: -405px !important;
-    }
+        margin-bottom: 0px;
+        height: auto;
+        padding-top: 7% !important;
+        padding-bottom: 8% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+        }
+       
+        .feature svg {
+            margin-top: -35% !important;
+            margin-left: 0px !important;    
+            width: 27%; 
+            height: 27%;
+        }
+    
+        .feature .projectText {
+            margin-top: -26% !important;
+            padding-left: 5%;
+            width: 40%;   
+        }
+    
+        .feature h2 {
+            margin: 0;
+            font-size: 14px !important;
+            letter-spacing: 0.435em !important;
+            margin-bottom: 1%;
+        }
+    
+        .feature h3 {
+            margin-bottom: 3% !important;
+            font-size: 25px !important;
+        }
+    
+        .feature .description {
+            margin-bottom: 3%;
+            font-size: 14px !important;
+            line-height: 25px !important;
+        }
+    
+        .project-cta {
+            width: 40%;
+            height: 40px;
+            font-size: 14px;
+            margin-top: 3%;
+        }
+    
+        .feature-thumbnail {
+            opacity: 100;
+            width: 60%;
+            height: 60%;
+            margin-left: 46%;
+            margin-top: -10% !important;
+        }
 }
 
 @mixin feature-desktopXL(){

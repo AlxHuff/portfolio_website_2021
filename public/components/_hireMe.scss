@@ -110,34 +110,54 @@
 @mixin hireMe-desktop(){
     .hireMe {
         margin-bottom: 0px;
-        padding-top:100px;
-        padding-bottom: 100px;
-        padding-left: 110px;
-        padding-right:110px;
+        height: auto;
+        padding-top: 2% !important;
+        padding-bottom: 5% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
     }
 
+
     .hireMe h3 {
-        margin-bottom: 35px;
+        margin: 0 auto;
         font-weight: 800;
+        margin-bottom: 2%;
         font-size: 25px;
     }
     
     .hire-cta {
-        width: 200px;
+        width: 18%;
         height: 50px;
-        margin-bottom: 0px;
-        font-size: 15px;
+        font-size: 110%;
         font-weight: 800;
+        border-radius: 30px;
     }
 }
 
 @mixin hireMe-desktopXL(){
     .hireMe {
         margin-bottom: 0px;
-        padding-top:100px;
-        padding-bottom: 100px;
-        padding-left: 110px;
-        padding-right:110px;
+        height: auto;
+        padding-top: 2% !important;
+        padding-bottom: 5% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+    }
+
+
+    .hireMe h3 {
+        margin: 0 auto;
+        font-weight: 800;
+        margin-bottom: 2%;
+        font-size: 190%;
+    }
+    
+    .hire-cta {
+        width: 22%;
+        height: 50px;
+        font-size: 110%;
+        font-weight: 800;
+        border-radius: 30px;
     }
 }
 

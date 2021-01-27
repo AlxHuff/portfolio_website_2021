@@ -129,41 +129,66 @@
 }
 
 @mixin header-desktop(){
-    .box{
+    .box {
         height:500px;
-        padding-top:30px !important;
-        padding-bottom: 40px !important;
-        padding-left: 110px !important;
-        padding-right:110px !important;
+        padding-top: 0% !important;
+        padding-bottom: 2% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
     }
 
-    .box h1{
-        margin-bottom: 40px !important;
-        width: 600px;
-        font-size: 40px !important;
+    .box h1 {
+        margin-bottom: 5% !important;
+        margin-top: 0px !important;
+        width: auto;
+        font-size: 290% !important;
+        padding-left: 0%;
     }
 
-    .box p{  
-        width: 482px;
-        height: 32px;
-        font-size: 16px;
+    .box p {  
+        width: auto;
+        font-size: 100%;
+        padding-left: 0%;
     }
 
     .pull-quote {
         opacity: 100 !important;
-        margin-top: 360px !important;
-        margin-left: 100px !important;
-        width: 65%x;
+        margin-top: 65% !important;
+        margin-left: -18% !important;
+        height: auto;
+        width: 120% !important;
     }
 }
 
 @mixin header-desktopXL(){
     .box{
         height:500px;
-        padding-top:30px !important;
-        padding-bottom: 40px !important;
-        padding-left: 110px !important;
-        padding-right:110px !important;
+        padding-top: 0% !important;
+        padding-bottom: 2% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+    }
+
+    .box h1{
+        margin-bottom: 5% !important;
+        margin-top: 0px !important;
+        width: auto;
+        font-size: 290% !important;
+        padding-left: 0%;
+    }
+
+    .box p {  
+        width: auto;
+        font-size: 100%;
+        padding-left: 0%;
+    }
+
+    .pull-quote {
+        opacity: 100 !important;
+        margin-top: 85% !important;
+        margin-left: -40% !important;
+        height: auto;
+        width: 150% !important;
     }
 }
 

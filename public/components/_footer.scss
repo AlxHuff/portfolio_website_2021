@@ -97,33 +97,50 @@
 
 @mixin footer-desktop() {
     #footer {
-    height: 150px !important;
-    padding-left: 110px !important;
-    padding-right: 110px !important;
-    padding-top: 65px;
+        height: auto;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
     }
-
-   #footer-text {
+    
+    #footer-text {
+        margin: 0 auto;;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 70% !important;
         width: 300px;
         text-align: center;
         padding: 0px;
     }
-
+    
     .github-link {
         font-weight: 400;
-        font-size: 10px;
+        font-size: 100%;
     }
 }
 
 
 @mixin footer-desktopXL() {
     #footer {
-    height: 150px !important;
-    padding-left: 110px !important;
-    padding-right: 110px !important;
-    padding-top: 65px;
+        height: auto;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+    }
+    
+    #footer-text {
+        margin: 0 auto;;
+        font-weight: 400;
+        font-size: 70% !important;
+        width: 300px;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .github-link {
+        font-weight: 400;
+        font-size: 100%;
     }
 }
 

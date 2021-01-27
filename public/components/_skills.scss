@@ -228,56 +228,58 @@
 
 @mixin skills-desktop(){
     .skills {
-        height: 800px;
-        padding-top:80px;
-        padding-bottom: 40px;
-        padding-left: 110px;
-        padding-right:110px;
+        margin-bottom: 0px;
+        height: auto;
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
     }
         
-    h1 {
-        margin-bottom: 60px !important;
-        font-size: 40px !important; 
+    .skills h1 {
+        margin-bottom: 4%;
+        margin-left: 0px;
+        font-size: 220%; 
     }
 
     .resume-cta {
-        width: 200px;
+        width: 22%;
         height: 50px;
-        font-size: 15px !important;
+        font-size: 110%;
         font-weight: 800;
         border-radius: 30px;
     }
     
     .skills-row {
-        margin-bottom: 50px;
+        margin-bottom: 5% !important;
+        margin-bottom: 40px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
     .skills-card {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 60px;
-        width: 350px;
-        height: 450px;
+        margin-bottom: 0px;
+        padding: 5%;
+        width: 32%;
+        height: auto;
         border-radius: 20px;
     }
 
     .card-icon {
-        font-size: 35px;
-        margin-bottom: 15px;
+        font-size: 190% !important;
+        margin-bottom: 8%;
     }
 
-   .skills h2 {
-        font-size: 16px !important;
-        font-weight: 800 !important;
-        margin-bottom: 30px !important;
+    .skills h2 {
+        font-size: 100%;
+        font-weight: 800;
+        margin-bottom: 10%;
     }
     
     .skills img {
-        width: 320px;
-        margin-left: -5px;
+        width: 100%;
+        margin-left: 0px;
     }
 }
 
