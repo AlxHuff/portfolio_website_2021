@@ -285,11 +285,58 @@
 
 @mixin skills-desktopXL(){
     .skills {
-        height: 800px;
-        padding-top:80px;
-        padding-bottom: 40px;
-        padding-left: 110px;
-        padding-right:110px;
+        margin-bottom: 0px;
+        height: auto;
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+    }
+        
+    .skills h1 {
+        margin-bottom: 4%;
+        margin-left: 0px;
+        font-size: 250%; 
+    }
+
+    .resume-cta {
+        width: 20%;
+        height: 55px;
+        font-size: 120%;
+        font-weight: 800;
+        border-radius: 30px;
+    }
+    
+    .skills-row {
+        margin-bottom: 5% !important;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .skills-card {
+        margin-bottom: 0px;
+        padding: 5%;
+        width: 30%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .card-icon {
+        font-size: 250% !important;
+        margin-bottom: 5%;
+    }
+
+    .skills h2 {
+        font-size: 130%;
+        font-weight: 800;
+        margin-bottom: 10%;
+    }
+    
+    .skills img {
+        width: 100%;
+        margin-left: 0px;
     }
 }
 

@@ -162,33 +162,38 @@
 
 @mixin header-desktopXL(){
     .box{
-        height:500px;
+        height:600px;
         padding-top: 0% !important;
         padding-bottom: 2% !important;
         padding-left: 7% !important;
         padding-right: 7% !important;
     }
 
+    div.headline {
+        margin: 0 auto;
+    }
+
     .box h1{
+        margin: 0 auto;
         margin-bottom: 5% !important;
         margin-top: 0px !important;
         width: auto;
-        font-size: 290% !important;
+        font-size: 370% !important;
         padding-left: 0%;
     }
 
     .box p {  
         width: auto;
-        font-size: 100%;
+        font-size: 115%;
         padding-left: 0%;
     }
 
     .pull-quote {
         opacity: 100 !important;
-        margin-top: 85% !important;
-        margin-left: -40% !important;
+        margin-top: 65% !important;
+        margin-left: -20% !important;
         height: auto;
-        width: 150% !important;
+        width: 110% !important;
     }
 }
 
