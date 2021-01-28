@@ -434,12 +434,17 @@ header .box .pull-quote {
     padding-right: 15px !important;
     font-size: 12px;
   }
-  .nav-icon {
-    width: 8%;
-    padding-top: 5px;
+  .icon-link {
+    width: 9%;
+    height: auto;
+    margin: 0 auto;
     padding: 1%;
     margin-left: 1%;
     margin-right: 1%;
+  }
+  .nav-icon {
+    width: 100%;
+    padding-top: 0px;
   }
   header .box {
     height: 250px;
@@ -449,17 +454,18 @@ header .box .pull-quote {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .box h1 {
-    margin-bottom: 15px !important;
+  .headline {
+    margin-bottom: 5% !important;
     margin-top: 0px !important;
     width: auto;
-    font-size: 150%;
+    font-size: 140%;
     padding-left: 0%;
   }
   .box p {
     width: auto;
     font-size: 75%;
     padding-left: 0%;
+    margin-bottom: 2%;
   }
   .pull-quote {
     opacity: 0 !important;
@@ -765,21 +771,28 @@ header .box .pull-quote {
   }
   .navbar-brand {
     margin-left: 0 !important;
-    margin-right: 0% !important;
+    margin-right: 1.5% !important;
     font-size: 18px !important;
     line-height: 39px;
   }
   .nav-link {
-    padding: 8px;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    font-size: 12px;
+    padding: 0px;
+    padding-top: 12px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 10px;
   }
-  .nav-icon {
-    width: 6%;
+  .icon-link {
+    width: 5%;
+    height: auto;
+    margin: 0 auto;
     padding: 1%;
     margin-left: 1%;
     margin-right: 1%;
+  }
+  .nav-icon {
+    width: 100%;
+    padding-top: 0px;
   }
   .box {
     height: 300px;
@@ -788,7 +801,7 @@ header .box .pull-quote {
     padding-left: 7% !important;
     padding-right: 7% !important;
   }
-  .box h1 {
+  .headline {
     margin-bottom: 15px !important;
     margin-top: 0px !important;
     width: 100%;
@@ -1133,11 +1146,17 @@ header .box .pull-quote {
     padding-right: 15px !important;
     font-size: 12px;
   }
+  .icon-link {
+    width: 5%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
   .nav-icon {
-    width: 7%;
-    padding: 2%;
-    margin-left: 0%;
-    margin-right: 0%;
+    width: 100%;
+    padding-top: 0px;
   }
   .box {
     height: 400px;
@@ -1146,7 +1165,7 @@ header .box .pull-quote {
     padding-left: 7% !important;
     padding-right: 7% !important;
   }
-  .box h1 {
+  .headline {
     margin-bottom: 5% !important;
     margin-top: 0px !important;
     width: auto;
@@ -1480,11 +1499,17 @@ header .box .pull-quote {
     padding-right: 15px !important;
     font-size: 14px;
   }
+  .icon-link {
+    width: 5%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
   .nav-icon {
-    width: 7%;
-    padding: 2%;
-    margin-left: 0%;
-    margin-right: 0%;
+    width: 100%;
+    padding-top: 0px;
   }
   .box {
     height: 420px;
@@ -1493,7 +1518,7 @@ header .box .pull-quote {
     padding-left: 7% !important;
     padding-right: 7% !important;
   }
-  .box h1 {
+  .headline {
     margin-bottom: 5% !important;
     margin-top: 0px !important;
     width: auto;
@@ -1825,16 +1850,23 @@ header .box .pull-quote {
     line-height: 39px;
   }
   .nav-link {
-    padding: 8px;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    font-size: 16px;
+    padding: 0px;
+    padding-top: 15px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 14px;
+  }
+  .icon-link {
+    width: 5%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
   .nav-icon {
-    width: 7%;
-    padding: 2%;
-    margin-left: 0%;
-    margin-right: 0%;
+    width: 100%;
+    padding-top: 0px;
   }
   .box {
     height: 500px;
@@ -1843,7 +1875,7 @@ header .box .pull-quote {
     padding-left: 7% !important;
     padding-right: 7% !important;
   }
-  .box h1 {
+  .headline {
     margin-bottom: 5% !important;
     margin-top: 0px !important;
     width: auto;
@@ -2171,21 +2203,27 @@ header .box .pull-quote {
   .navbar-brand {
     margin-left: 0 !important;
     margin-right: 5% !important;
-    font-size: 25px !important;
+    font-size: 30px !important;
     line-height: 39px;
   }
   .nav-link {
-    padding: 8px;
+    padding: 0px;
+    padding-top: 15px !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
     font-size: 18px;
   }
+  .icon-link {
+    width: 4%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
   .nav-icon {
-    width: auto;
-    height: 30px;
-    padding: 0%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 100%;
+    padding-top: 0px;
   }
   .box {
     height: 600px;
@@ -2194,10 +2232,7 @@ header .box .pull-quote {
     padding-left: 7% !important;
     padding-right: 7% !important;
   }
-  div.headline {
-    margin: 0 auto;
-  }
-  .box h1 {
+  .headline {
     margin: 0 auto;
     margin-bottom: 5% !important;
     margin-top: 0px !important;

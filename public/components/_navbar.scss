@@ -25,12 +25,18 @@
         font-size: 12px;
     }
 
+    .icon-link {
+        width: 9%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
     .nav-icon {
-        width: auto;
-        height: 30px;
-        padding: 0%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 100%;
+        padding-top:0px;
     }
 }
 
@@ -49,24 +55,31 @@
 
     .navbar-brand {
         margin-left: 0 !important;
-        margin-right: 0% !important;
+        margin-right: 1.5% !important;
         font-size: 18px !important;
         line-height: 39px;
     }
 
     .nav-link {
-        padding: 8px;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-        font-size: 12px;
+        padding: 0px;
+        padding-top: 12px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        font-size: 10px;
+    }
+
+    .icon-link {
+        width: 5%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
     .nav-icon {
-        width: auto;
-        height: 30px;
-        padding: 0%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 100%;
+        padding-top:0px;
     }
 }
 
@@ -117,12 +130,18 @@
         font-size: 12px;
     }
 
+    .icon-link {
+        width: 5%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
     .nav-icon {
-        width: auto;
-        height: 30px;
-        padding: 0%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 100%;
+        padding-top:0px;
     }
 }
 
@@ -153,12 +172,18 @@
         font-size: 14px;
     }
 
+    .icon-link {
+        width: 5%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
     .nav-icon {
-        width: auto;
-        height: 30px;
-        padding: 0%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 100%;
+        padding-top:0px;
     }
 }
 
@@ -182,20 +207,28 @@
         line-height: 39px;
     }
 
-    .nav-link {
-        padding: 8px;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-        font-size: 16px;
+    .nav-link { 
+        padding: 0px;
+        padding-top: 15px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        font-size: 14px;
+    }
+
+    .icon-link {
+        width: 5%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
     .nav-icon {
-        width: auto;
-        height: 30px;
-        padding: 0%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 100%;
+        padding-top:0px;
     }
+}
 
 @mixin navbar-desktopXL() {
     .navbar {
@@ -213,24 +246,31 @@
     .navbar-brand {
         margin-left: 0 !important;
         margin-right: 5% !important;
-        font-size: 25px !important;
+        font-size: 30px !important;
         line-height: 39px;
     }
 
-    .nav-link {
-        padding: 8px;
+    .nav-link { 
+        padding: 0px;
+        padding-top: 15px !important;
         padding-left: 15px !important;
         padding-right: 15px !important;
         font-size: 18px;
     }
 
-    .nav-icon {
-        width: auto;
-        height: 30px;
-        padding: 0%;
-        margin-left: 2%;
-        margin-right: 2%;
+    .icon-link {
+        width: 4%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
+
+    .nav-icon {
+        width: 100%;
+        padding-top:0px;
+}
 }
 
 //default: same on all devices rules
@@ -252,4 +292,4 @@
         font-weight: normal;
     }
 
-}}
+}
