@@ -2159,7 +2159,7 @@ header .box .pull-quote {
 
 @media screen and (min-width: 1441px) {
   .navbar {
-    height: 80px;
+    height: 85px;
     padding-top: 2% !important;
     padding-bottom: 2% !important;
     padding-left: 6% !important;
@@ -2181,10 +2181,11 @@ header .box .pull-quote {
     font-size: 18px;
   }
   .nav-icon {
-    width: 4%;
-    padding: 1%;
-    margin-left: 0%;
-    margin-right: 0%;
+    width: auto;
+    height: 30px;
+    padding: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .box {
     height: 600px;

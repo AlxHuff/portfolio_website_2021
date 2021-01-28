@@ -26,11 +26,11 @@
     }
 
     .nav-icon {
-        width: 8%;
-        padding-top:5px;
-        padding: 1%;
-        margin-left: 1%;
-        margin-right: 1%;
+        width: auto;
+        height: 30px;
+        padding: 0%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 
@@ -62,10 +62,11 @@
     }
 
     .nav-icon {
-        width: 6%;
-        padding: 1%;
-        margin-left: 1%;
-        margin-right: 1%;
+        width: auto;
+        height: 30px;
+        padding: 0%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 
@@ -117,10 +118,11 @@
     }
 
     .nav-icon {
-        width: 7%;
-        padding: 2%;
-        margin-left: 0%;
-        margin-right: 0%;
+        width: auto;
+        height: 30px;
+        padding: 0%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 
@@ -152,10 +154,11 @@
     }
 
     .nav-icon {
-        width: 7%;
-        padding: 2%;
-        margin-left: 0%;
-        margin-right: 0%;
+        width: auto;
+        height: 30px;
+        padding: 0%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 
@@ -187,16 +190,16 @@
     }
 
     .nav-icon {
-        width: 7%;
-        padding: 2%;
-        margin-left: 0%;
-        margin-right: 0%;
+        width: auto;
+        height: 30px;
+        padding: 0%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
-}
 
 @mixin navbar-desktopXL() {
     .navbar {
-        height: 80px;
+        height: 85px;
         padding-top: 2% !important;
         padding-bottom: 2% !important;
         padding-left: 6% !important;
@@ -222,10 +225,11 @@
     }
 
     .nav-icon {
-        width: 4%;
-        padding: 1%;
-        margin-left: 0%;
-        margin-right: 0%;
+        width: auto;
+        height: 30px;
+        padding: 0%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 
@@ -248,4 +252,4 @@
         font-weight: normal;
     }
 
-}
+}}
